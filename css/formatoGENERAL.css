@@ -1,0 +1,120 @@
+#cabecera{
+	text-align: center;
+	font-size: 20pt;
+	color:white;
+	font-family: sans-serif;
+	background-image: url(http://www.bricoretto.com/547-thickbox_default/tablero-rojo.jpg);
+}
+h2 {
+	text-align: center;
+}
+
+ul#opciones {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border: 2px solid rgb(200,0,0);
+}
+
+li#pos{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+    font-weight: bolder;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-gap: 10px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.contenidoIzquierda > *{
+	width: 95%;
+}
+
+.contenidoIzquierda {
+	border: 2px solid #000000;
+}
+
+.contenidoDerecha {
+	height: 100%;
+}
+.contenidoDerecha >*{
+	margin: 20px
+}
+
+.contenidoDerecha >* >*{
+	margin: 20px
+}
+
+.imagen {
+	border: 2px dashed #000000;
+	box-shadow: 5px 5px #888888;
+}
+.formulario{
+	text-align: left;
+}
+
+ul#serviciosRegistrados>li:hover{
+	background-color: #dddddd;
+	cursor: help;
+}
+
+#sri,#Pensiones,#Cable,#Telefonia{
+	display: none;
+}
+
+li[id="menuSri"]:hover #sri{
+	display: block;
+}
+
+li[id="menuTelefonia"]:hover #Telefonia{
+	display: block;
+}
+
+li[id="menuCable"]:hover #Cable{
+	display: block;
+}
+
+li[id="menuPensiones"]:hover #Pensiones{
+	display: block;
+}
+
+footer {
+	border: 2px dotted #000000;
+	display: flex;
+}
+
+footer #copyrightFooter{
+	font-size: 5em;
+	text-align: center;
+}
+
+footer #contFooter{
+	font-size: 1em;
+	text-align: justify;
+}
+

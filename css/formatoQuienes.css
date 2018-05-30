@@ -1,0 +1,17 @@
+.contenidoDerecha h2{
+	text-align: center;
+}
+
+.gridDerecha{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.subItem{
+	align-self: center;
+}
+
+.imagen:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
