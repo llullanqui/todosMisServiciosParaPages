@@ -17,6 +17,7 @@ ul#opciones {
     background-color: #333;
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    z-index: 999;
     top: 0;
     border: 2px solid rgb(200,0,0);
 }
