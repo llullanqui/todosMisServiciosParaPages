@@ -113,7 +113,9 @@ footer #copyrightFooter{
 	font-size: 5em;
 	text-align: center;
 }
-
+.clear{
+	clear: both;
+}
 footer #contFooter{
 	font-size: 1em;
 	text-align: justify;
